@@ -55,59 +55,11 @@ _Alternative to Pip is Homebrew_
 
 **1. Create a Folder where you want to save the project**
 
-**2. Create a Virtual Environment and Activate**
-
-Install Virtual Environment First
-
-```
-pip install virtualenv
-```
-
-Create Virtual Environment
-
-For Windows
-
-```
-python -m venv venv
-```
-
-For Mac
-
-```
-$  python3 -m venv venv
-```
-
-Activate Virtual Environment
-
-For Windows
-
-```
-venv\scripts\activate
-```
-
-For Mac
-
-```
-$  venv\bin\activate
-```
-
-
-**3. Install Requirements from 'requirements.txt'**
+**2. Install Requirements from 'requirements.txt'**
 
 ```python
 pip install -r requirements.txt
 ```
-
-**4. Add the hosts**
-
-- Got to settings.py file
-- Then, On allowed hosts, Add [‘*’].
-
-```python
-ALLOWED_HOSTS = ['*']
-```
-
-_No need to change on Mac._
 
 **5. Now Run Server**
 
@@ -142,17 +94,11 @@ Email: admin@gmail.com
 Password: admin
 
 _For Staff_
-Email: staff@gmail.com
-Password: staff
+Email: staff@yahoo.co.in
+Password: staff123
 
 _For Student_
 Email: student@gmail.com
 Password: student
 
-## Copyrights
-
-Coded by @ritikBanger, @mohitTaimni, and @ronitKhowal
-
-Developed for Poornima Group, Jaipur
-
-Copyright 2022 @ritikbanger
+Preview : http://127.0.0.1:8000/
