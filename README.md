@@ -60,7 +60,7 @@ _Alternative to Pip is Homebrew_
 Install Virtual Environment First
 
 ```
-$  pip install virtualenv
+pip install virtualenv
 ```
 
 Create Virtual Environment
@@ -68,7 +68,7 @@ Create Virtual Environment
 For Windows
 
 ```
-$  python -m venv venv
+python -m venv venv
 ```
 
 For Mac
@@ -82,7 +82,7 @@ Activate Virtual Environment
 For Windows
 
 ```
-$  venv\scripts\activate
+venv\scripts\activate
 ```
 
 For Mac
@@ -91,25 +91,14 @@ For Mac
 $  venv\bin\activate
 ```
 
-**3. Clone this project**
 
-```
-$  git clone https://github.com/ritikbanger/django-student-attendance-system.git
-```
-
-Then, Enter the project
-
-```
-$  cd django-student-attendance-system
-```
-
-**4. Install Requirements from 'requirements.txt'**
+**3. Install Requirements from 'requirements.txt'**
 
 ```python
-$  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-**5. Add the hosts**
+**4. Add the hosts**
 
 - Got to settings.py file
 - Then, On allowed hosts, Add [‘*’].
@@ -120,12 +109,12 @@ ALLOWED_HOSTS = ['*']
 
 _No need to change on Mac._
 
-**6. Now Run Server**
+**5. Now Run Server**
 
 Command for PC:
 
 ```python
-$ python manage.py runserver
+python manage.py runserver
 ```
 
 Command for Mac:
@@ -139,10 +128,12 @@ $ python3 manage.py runserver
 Create Super User (HOD)
 
 ```
-$  python manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 Then Add Email, Username and Password
+
+# OR
 
 **or Use Default Credentials**
 
