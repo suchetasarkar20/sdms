@@ -94,8 +94,8 @@ Email: admin@gmail.com
 Password: admin
 
 _For Staff_
-Email: staff@yahoo.co.in
-Password: staff123
+Email: staff@google.com
+Password: staff123456789
 
 _For Student_
 Email: student@gmail.com
